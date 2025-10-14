@@ -1,0 +1,47 @@
+h2{
+    text-align: center;
+    font-family: cursive;
+}
+form{
+    width: 500px;
+    margin: 40px auto;  /*centrar el formulario*/
+    padding: 20px;
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 0 4px 100cm rgb(43, 119, 226); /*es: superior iz/der inferior*/
+}
+label{display: block; /*Pone cada etiqueta en una en un renglon diferente*/
+    margin-bottom: 5px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+input[type="text"],input[type="email"],textarea{
+width: 100%;
+padding: 10px;
+margin-bottom: 15px;
+border: 1px solid blueviolet;
+border-radius: 4px;
+font-size: 16px;
+box-sizing: border-box; /*Asegura que el borde de lo que hay que rellenar se amolde*/
+}
+
+input:focus,textarea:focus{
+    border-color: yellowgreen;
+    box-shadow: 0 0 5px blue;
+    outline: none; /*Elimina el contorno */
+}
+input[type="submit"]{
+    width: 100%;
+    padding: 12px;
+    background-color: slateblue;
+    color: antiquewhite;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /*Cambia el cursor para indicar que es clickeable*/
+    font-size: 20px;
+    transition: background-color 2.3s ease;
+}
+
